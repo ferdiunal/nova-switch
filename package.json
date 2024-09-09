@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "nova:install": "npm --prefix='../../vendor/laravel/nova' ci"
+    },
+    "devDependencies": {
+        "@vue/compiler-sfc": "^3.2.22",
+        "form-backend-validation": "^2.3.3",
+        "autoprefixer": "^10.4.20",
+        "laravel-mix": "^6.0.41",
+        "lodash": "^4.17.21",
+        "postcss": "^8.3.11",
+        "vue-loader": "^16.8.3",
+        "tailwindcss": "^3.4.10",
+        "tailwindcss-animated": "^1.1.2"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.7.22"
+    }
+}
