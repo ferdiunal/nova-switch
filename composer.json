@@ -1,9 +1,37 @@
 {
     "name": "ferdiunal/nova-switch",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova package to make fields switchable.",
+    "authors": [
+        {
+            "name": "Ferdi Ünal",
+            "email": "ferdiunal@outlook.com",
+            "homepage": "https://gitub.com/ferdiunal",
+            "role": "Developer"
+        }
+    ],
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/ferdiunal"
+        },
+        {
+            "type": "buymeacoffee",
+            "url": "https://buymeacoffee.com/ferdiunal"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "switch",
+        "switchable",
+        "nova-switch",
+        "nova-switchable"
     ],
     "license": "MIT",
     "require": {
